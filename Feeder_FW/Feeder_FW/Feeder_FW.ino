@@ -8,8 +8,8 @@
 #include <NTPtimeESP.h>
 
 NTPtime NTPus("us.pool.ntp.org");   // Choose server pool as required
-char *ssid      = "Kittenzergrush";               // Set you WiFi SSID
-char *password  = "Jabbertess";               // Set you WiFi password
+char *ssid      = "";               // Set you WiFi SSID
+char *password  = "";               // Set you WiFi password
 
 // Variables for capturing time and date values
 strDateTime dateTime;
